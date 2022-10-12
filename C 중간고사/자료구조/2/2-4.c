@@ -18,7 +18,6 @@ int i = 0 ;
 	}
 	*(str3)='\0';//마지막 문자에 '\0' 입력
 }
-
 int main() {
 	char str1[257],	str2[257], str3[257];
 	fgets(str1,257,stdin);
