@@ -2,7 +2,7 @@
 #include <stdio.h>
 size_t myStrlen(const char* str);
 int main(void){
-    chars[]="hello";
+    char s[]="hello";
     printf("%d\n", myStrlen(s));
     return 0;
 }
