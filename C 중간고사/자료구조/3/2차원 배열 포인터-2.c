@@ -9,10 +9,9 @@ int main() {
 // 총점과 평균 계산
 #include <stdio.h>
 void inputArray( int a[][4], int row );
+int i, j;
 int main(){
-	int score[3][4];
-	int i, j;
-	int tot;
+	int score[3][4], tot;
 	double avg;
 	//printf("학생 3명, 각각 네 과목의 점수를 입력하세요\n");
 	inputArray( score, 3);
@@ -26,8 +25,5 @@ int main(){
 	return 0;
 }
 void inputArray( int a[][4], int row ){
-	int i, j;
-	for(i=0;i<row;i++)
-		for(j=0;j<4;j++)
-			scanf("%d",&a[i][j]);
+	for(i=0;i<row;i++) for(j=0;j<4;j++) scanf("%d",&a[i][j]);
 }
