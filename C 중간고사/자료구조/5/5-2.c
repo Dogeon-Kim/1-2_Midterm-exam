@@ -1,3 +1,4 @@
+// 스택의 기본 연산 위한 스택 구조체와 함수
 #include <stdio.h>
 #include <stdlib.h>
 #define STACK_SIZE 10

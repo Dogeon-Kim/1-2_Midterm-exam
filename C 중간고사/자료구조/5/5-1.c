@@ -1,3 +1,4 @@
+// 스택을 스택 구조체 변수로 정의
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
